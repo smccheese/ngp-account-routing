@@ -1,0 +1,37 @@
+# Property of Not Gone Productions LLC
+# Architect: M. Scott McKee
+# Created: 20260915T210027PDT
+# TIC modified: 20260915T210551PDT
+
+# Private identity maps and local evidence
+.private/
+private/
+local-data/
+evidence/
+
+# Authentication and environment material
+*.secret
+*.credentials
+*.token
+.env
+.env.*
+!.env.example
+
+# Local databases, logs, and exports
+*.db
+*.sqlite
+*.sqlite3
+*.log
+exports/
+
+# Operating-system and editor state
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# Rust and generated artifacts
+target/
+dist/
+coverage/
